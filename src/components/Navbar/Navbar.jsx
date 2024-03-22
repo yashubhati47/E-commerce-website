@@ -3,8 +3,6 @@ import Logo from "..//..//assets//Logo.png";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
-import { FaSignInAlt } from "react-icons/fa";
-
 import DarkMode from "./DarkMode";
 
 const Menu = [
@@ -33,7 +31,6 @@ const Menu = [
     name: "Electronics",
     link: "/#",
   },
-  
 ];
 
 const DropdownLinks = [
