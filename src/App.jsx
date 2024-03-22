@@ -1,4 +1,5 @@
 import React from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import  Navbar  from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Products from './components/Products/Products';
@@ -42,7 +43,7 @@ React.useEffect(() => {
          <Testimonials />
          <Footer />
          <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
-
+         <SpeedInsights />
 
     </div>
     
